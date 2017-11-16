@@ -1,0 +1,12 @@
+RewriteEngine on
+Options +MultiViews
+Options +Indexes
+
+RewriteBase /nova_insurance/
+
+ErrorDocument 404 http://localhost/nova_insurance/404page
+RewriteCond %{REQUEST_FILENAME} !-d        
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_FILENAME}.php -f    
+RewriteCond %{REQUEST_URI} ^(.+)\.php$     
+RewriteRule (.*)\.php$ /$1 [R=301,L]  
+RewriteRule ^(includes/) - [F,L,NC]
