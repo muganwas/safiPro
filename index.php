@@ -1,12 +1,14 @@
-<?php include 'includes/site_head.php' ?>
-<?php include 'includes/bread_crumbs.php'; ?>	
-<?php include 'includes/slider.php' ?>
+<?php 
+include 'includes/site_head.php';
+include 'includes/bread_crumbs.php';  
+include 'includes/slider.php';
+?>
 <main class="main-content">
 	<div class="fullwidth-block greet-section">
-		<?php include'includes/welcome.php'?>
+		<?php include 'includes/welcome.php'?>
 	</div>
 	<div class="fullwidth-block-offer">
-			<?php include 'includes/our_offer.php'?>
+		<?php include 'includes/our_offer.php'?>
 	</div>
 	<div class="fullwidth-block-test">
 		<?php include 'includes/offering_dits.php';?>
@@ -15,4 +17,4 @@
 		<div class="map"></div>
 	</div>
 </main>
-<?php include'includes/site_footer.php';?>
+<?php include 'includes/site_footer.php';?>

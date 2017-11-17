@@ -2,9 +2,9 @@
 <?php
 
 $server = 'localhost';
-$user = 'root';
-$pass = '';
-$database = 'nova_insurance';
+$user = 'alieimkd_safipro';
+$pass = 'safiproinvestments123';
+$database = 'alieimkd_safipro';
 
 if(serverConnect($server, $user, $pass, $database)=='ok'){
 	
@@ -76,9 +76,9 @@ function realness(){
 function dataFetch($id, $query){	
 	
 	$server = 'localhost';
-	$user = 'root';
-	$pass = '';
-	$database = 'nova_insurance';
+	$user = 'alieimkd_safipro';
+	$pass = 'safiproinvestments123';
+	$database = 'alieimkd_safipro';
 		
 	try{
 		
@@ -105,9 +105,9 @@ function dataFetch($id, $query){
 }
 function dataFetchMulti($id, $type, $query){	
 	$server = 'localhost';
-	$user = 'root';
-	$pass = '';
-	$database = 'nova_insurance';
+	$user = 'alieimkd_safipro';
+	$pass = 'safiproinvestments123';
+	$database = 'alieimkd_safipro';
 	$arre = array();
 		
 	try{
@@ -186,9 +186,9 @@ function latest_article($id){
 	$query = "SELECT `id` FROM `blog` ORDER BY `id` DESC";
 		
 	$server = 'localhost';
-	$user = 'root';
-	$pass = '';
-	$database = 'nova_insurance';
+	$user = 'alieimkd_safipro';
+	$pass = 'safiproinvestments123';
+	$database = 'alieimkd_safipro';
 	$arre = array();
 		
 	try{
@@ -223,9 +223,9 @@ function search_nonya($key){
 		
 		
 	$server = 'localhost';
-	$user = 'root';
-	$pass = '';
-	$database = 'nova_insurance';
+	$user = 'alieimkd_safipro';
+	$pass = 'safiproinvestments123';
+	$database = 'alieimkd_safipro';
 	$arre = array();
 	$param = '%'.$key.'%';
 		
@@ -262,9 +262,9 @@ function search_nonya1($key){
 		
 		
 	$server = 'localhost';
-	$user = 'root';
-	$pass = '';
-	$database = 'nova_insurance';
+	$user = 'alieimkd_safipro';
+	$pass = 'safiproinvestments123';
+	$database = 'alieimkd_safipro';
 	$arre = array();
 	$arre1 = array();
 	$data = "";
@@ -316,9 +316,9 @@ function found_article($key){
 			
 		
 	$server = 'localhost';
-	$user = 'root';
-	$pass = '';
-	$database = 'nova_insurance';
+	$user = 'alieimkd_safipro';
+	$pass = 'safiproinvestments123';
+	$database = 'alieimkd_safipro';
 	$arre = array();
 		
 	try{
@@ -349,9 +349,9 @@ function found_article($key){
 function email_check($email_address){
 	
 	$server = 'localhost';
-	$user = 'root';
-	$pass = '';
-	$database = 'nova_insurance';
+	$user = 'alieimkd_safipro';
+	$pass = 'safiproinvestments123';
+	$database = 'alieimkd_safipro';
 	$arre = array();
 		
 	if(isset($email_address) && !empty($email_address)){
@@ -399,9 +399,9 @@ function email_check($email_address){
 function news_letter_subscription($email_address){
 	
 	$server = 'localhost';
-	$user = 'root';
-	$pass = '';
-	$database = 'nova_insurance';
+	$user = 'alieimkd_safipro';
+	$pass = 'safiproinvestments123';
+	$database = 'alieimkd_safipro';
 	$arre = array();
 		
 	try{
@@ -501,9 +501,9 @@ function news_letter_subscription($email_address){
 function news_letter_unsubscription($email_address){
 	
 	$server = 'localhost';
-	$user = 'root';
-	$pass = '';
-	$database = 'nova_insurance';
+	$user = 'alieimkd_safipro';
+	$pass = 'safiproinvestments123';
+	$database = 'alieimkd_safipro';
 	$arre = array();
 		
 	try{
@@ -590,12 +590,12 @@ function news_letter_unsubscription($email_address){
 }
 function testimonials(){
 		
-		
-	$query = "SELECT `testimony` FROM `testimonials` ORDER BY `id`";
 	$server = 'localhost';
-	$user = 'root';
-	$pass = '';
-	$database = 'nova_insurance';
+	$user = 'alieimkd_safipro';
+	$pass = 'safiproinvestments123';
+	$database = 'alieimkd_safipro';
+	$query = "SELECT `testimony` FROM `testimonials` ORDER BY `id`";
+
 	$arre = array();
 		
 	try{
@@ -636,9 +636,9 @@ function re_insurers($cat){
 		
 	$query = "SELECT `details` FROM `re_insurers` ORDER BY `id`";
 	$server = 'localhost';
-	$user = 'root';
-	$pass = '';
-	$database = 'nova_insurance';
+	$user = 'alieimkd_safipro';
+	$pass = 'safiproinvestments123';
+	$database = 'alieimkd_safipro';
 		
 	try{
 		
@@ -726,9 +726,9 @@ function sendEmail($name, $email, $website,  $message){
 function insuranceQuote($f_name, $l_name, $b_date, $email, $occupation, $d_coverage, $c_coverage, $e_date, $amount){
 
 	$server = 'localhost';
-	$user = 'root';
-	$pass = '';
-	$database = 'nova_insurance';
+	$user = 'alieimkd_safipro';
+	$pass = 'safiproinvestments123';
+	$database = 'alieimkd_safipro';
 
 	try{
 
