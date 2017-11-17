@@ -1,5 +1,5 @@
 <div class="site-footer">
-	<div class="news_letter" id="news_letter">
+	<!--<div class="news_letter" id="news_letter">
 	<div class="msg_header" id="sub_res"></div>
 	<div class="msg" id="sub_res1"><?php //if(isset($msg)){echo $msg;} ?></div>
 		<form>	
@@ -7,17 +7,18 @@
 			<input type="button" name="submit" onclick="submitted();" value="Subscribe"/>
 		</form> 
 	</div>
+-->
 		<div class="widget-area">
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12 col-sm-4 col-md-2" id="reduced">
 						<div class="widget">
 							<h3 class="widget-title">Contact</h3>
-							<address> Nova Insurance Company LTD. 6, Mackinnon Road Kampala, Uganda.
+							<address> SAFI PRO INVESTMENTS (U) L.T.D
 							</address>
-							Phone:<br><a href="tel:+256 414 232995"> +256 414 232995</a> <br>Fax:<br>+256 414 232996<br>
+							Phone:<br><a href="tel:+256776001022"> +256 776001022</a> <br>Mob:<br>+256 703001022<br>
 							Email:<br>
-							<a href="mailto:info@novainsurance.co.ug">info@novainsurance.co.ug</a>
+							<a href="mailto:saﬁpromd@gmail.com">saﬁpromd@gmail.com</a>
 						</div>
 					</div>
 					<div class="col-xs-12 col-sm-4 col-md-2" id="reduced">
@@ -25,22 +26,18 @@
 							<h3 class="widget-title">Company</h3>
 							<ul class="no-bullet">
 								<li><a href="<?php echo $root_folder.'about'.'?cat=general'; ?>">About us</a></li>
-								<li><a href="<?php echo $root_folder.'about'.'?cat=career'; ?>"><li id="sub_item">Career</li></a></li>
 								<li><a href="<?php echo $root_folder.'about'.'?cat=management'; ?>">Management</a></li>
 							</ul>
 						</div>
 					</div>
 					<div class="col-xs-12 col-sm-4 col-md-2" id="reduced">
 						<div class="widget">
-							<h3 class="widget-title">Products</h3>
+							<h3 class="widget-title">Products &amp; Services</h3>
 							<ul class="no-bullet">
-								<li><a href="<?php echo $root_folder.'insurance'.'?cat=business'; ?>#factory">Factory insurance</a></li>
-								<li><a href="<?php echo $root_folder.'insurance'.'?cat=individual'; ?>#home">Home insurance</a></li>
-								<li><a href="<?php echo $root_folder.'insurance'.'?cat=individual'; ?>#motor">Motor insurance</a></li>
-								<li><a href="<?php echo $root_folder.'insurance'.'?cat=business'; ?>#business">Business insurance</a></li>
-								<li><a href="<?php echo $root_folder.'insurance'.'?cat=business'; ?>#contractor">Investment insurance</a></li>
-								<li><a href="<?php echo $root_folder.'insurance'.'?cat=business'; ?>#cargo">Cargo insurance</a></li>
-								<li><a href="<?php echo $root_folder.'insurance'.'?cat=business'; ?>#business">Employer liability insurance</a></li>
+								<li><a href="#">Agro Produce</a></li>
+								<li><a href="#">Real Estate</a></li>
+								<li><a href="#">Surveying</a></li>
+								<li><a href="#">Document Processing</a></li>
 							</ul>
 						</div>
 					</div>
@@ -48,7 +45,7 @@
 						<div class="widget">
 							<h3 class="widget-title">Misc</h3>
 							<ul class="no-bullet">
-								<li><a href="<?php echo $root_folder.'about'.'?cat=re-ins'; ?>">Our Re-insurers</a></li>
+								<li><a href="#">Misc</a></li>
 							
 							</ul>
 						</div>
@@ -71,13 +68,13 @@
 				<nav class="footer-navigation">
 					<a href="<?php echo $root_folder; ?>">Home</a>
 					<a href="<?php echo $root_folder.'about'.'?cat=general'; ?>">About us</a>
-					<a href="<?php echo $root_folder.'insurance'.'?cat=general'; ?>">Insurance plans</a>
-					<a href="<?php echo $root_folder.'blog'; ?>">Our Blog</a>
-					<a href="<?php echo $root_folder.'resources'; ?>">Resources</a>
+					<a href="<?php echo $root_folder.'insurance'.'?cat=general'; ?>">Our Products</a>
+					<a href="#">Our Suppliers</a>
+					<a href="#">Resources</a>
 					<a href="<?php echo $root_folder.'contact'; ?>">Contact</a>
 				</nav>
 
-				<div class="colophon">&copy;2017 Nova Insurance. <?php realness(); ?> . All rights reserved.</div>
+				<div class="colophon">&copy;2017 Safipro Investments. <?php realness(); ?> . All rights reserved.</div>
 			</div>
 		</div>
 	</div>

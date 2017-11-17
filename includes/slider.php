@@ -4,7 +4,7 @@
 			<div class="container">
 				<div class="slide-content">
 					<h2 class="slide-title">We are <strong>Client Driven </strong></h2>
-					<p>We understand and exceed Client’s needs and expectations.</p>
+					<p>We understand and exceed client’s needs and expectations.</p>
 				</div>
 			</div>
 		</li>
