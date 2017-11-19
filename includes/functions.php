@@ -1,11 +1,5 @@
 <?php require("conf.inc.php"); ?>
 <?php
-
-$server = 'localhost';
-$user = 'alieimkd_safipro';
-$pass = 'safiproinvestments123';
-$database = 'alieimkd_safipro';
-
 if(serverConnect($server, $user, $pass, $database)=='ok'){
 	
 	$connected = 1;
@@ -75,10 +69,10 @@ function realness(){
 }
 function dataFetch($id, $query){	
 	
-	$server = 'localhost';
-	$user = 'alieimkd_safipro';
-	$pass = 'safiproinvestments123';
-	$database = 'alieimkd_safipro';
+	global $server;
+	global $user;
+	global $pass;
+	global $database;
 		
 	try{
 		
@@ -104,10 +98,10 @@ function dataFetch($id, $query){
 	
 }
 function dataFetchMulti($id, $type, $query){	
-	$server = 'localhost';
-	$user = 'alieimkd_safipro';
-	$pass = 'safiproinvestments123';
-	$database = 'alieimkd_safipro';
+	global $server;
+	global $user;
+	global $pass;
+	global $database;
 	$arre = array();
 		
 	try{
@@ -185,10 +179,10 @@ function latest_article($id){
 		
 	$query = "SELECT `id` FROM `blog` ORDER BY `id` DESC";
 		
-	$server = 'localhost';
-	$user = 'alieimkd_safipro';
-	$pass = 'safiproinvestments123';
-	$database = 'alieimkd_safipro';
+	global $server;
+	global $user;
+	global $pass;
+	global $database;
 	$arre = array();
 		
 	try{
@@ -222,10 +216,10 @@ function search_nonya($key){
 	(SELECT `article_title` FROM `blog` WHERE `article` LIKE ?)";
 		
 		
-	$server = 'localhost';
-	$user = 'alieimkd_safipro';
-	$pass = 'safiproinvestments123';
-	$database = 'alieimkd_safipro';
+	global $server;
+	global $user;
+	global $pass;
+	global $database;
 	$arre = array();
 	$param = '%'.$key.'%';
 		
@@ -261,10 +255,10 @@ function search_nonya1($key){
 	(SELECT `article_title` FROM `blog` WHERE `article` LIKE ?)";
 		
 		
-	$server = 'localhost';
-	$user = 'alieimkd_safipro';
-	$pass = 'safiproinvestments123';
-	$database = 'alieimkd_safipro';
+	global $server;
+	global $user;
+	global $pass;
+	global $database;
 	$arre = array();
 	$arre1 = array();
 	$data = "";
@@ -315,10 +309,10 @@ function found_article($key){
 	(SELECT `article` FROM `blog` WHERE `article_title`= ?)";
 			
 		
-	$server = 'localhost';
-	$user = 'alieimkd_safipro';
-	$pass = 'safiproinvestments123';
-	$database = 'alieimkd_safipro';
+	global $server;
+	global $user;
+	global $pass;
+	global $database;
 	$arre = array();
 		
 	try{
@@ -348,10 +342,10 @@ function found_article($key){
 }
 function email_check($email_address){
 	
-	$server = 'localhost';
-	$user = 'alieimkd_safipro';
-	$pass = 'safiproinvestments123';
-	$database = 'alieimkd_safipro';
+	global $server;
+	global $user;
+	global $pass;
+	global $database;
 	$arre = array();
 		
 	if(isset($email_address) && !empty($email_address)){
@@ -398,10 +392,10 @@ function email_check($email_address){
 }
 function news_letter_subscription($email_address){
 	
-	$server = 'localhost';
-	$user = 'alieimkd_safipro';
-	$pass = 'safiproinvestments123';
-	$database = 'alieimkd_safipro';
+	global $server;
+	global $user;
+	global $pass;
+	global $database;
 	$arre = array();
 		
 	try{
@@ -500,10 +494,10 @@ function news_letter_subscription($email_address){
 }
 function news_letter_unsubscription($email_address){
 	
-	$server = 'localhost';
-	$user = 'alieimkd_safipro';
-	$pass = 'safiproinvestments123';
-	$database = 'alieimkd_safipro';
+	global $server;
+	global $user;
+	global $pass;
+	global $database;
 	$arre = array();
 		
 	try{
@@ -590,10 +584,10 @@ function news_letter_unsubscription($email_address){
 }
 function testimonials(){
 		
-	$server = 'localhost';
-	$user = 'alieimkd_safipro';
-	$pass = 'safiproinvestments123';
-	$database = 'alieimkd_safipro';
+	global $server;
+	global $user;
+	global $pass;
+	global $database;
 	$query = "SELECT `testimony` FROM `testimonials` ORDER BY `id`";
 
 	$arre = array();
@@ -635,10 +629,10 @@ function people($cat){
 function re_insurers($cat){
 		
 	$query = "SELECT `details` FROM `re_insurers` ORDER BY `id`";
-	$server = 'localhost';
-	$user = 'alieimkd_safipro';
-	$pass = 'safiproinvestments123';
-	$database = 'alieimkd_safipro';
+	global $server;
+	global $user;
+	global $pass;
+	global $database;
 		
 	try{
 		
@@ -725,10 +719,10 @@ function sendEmail($name, $email, $website,  $message){
 }
 function insuranceQuote($f_name, $l_name, $b_date, $email, $occupation, $d_coverage, $c_coverage, $e_date, $amount){
 
-	$server = 'localhost';
-	$user = 'alieimkd_safipro';
-	$pass = 'safiproinvestments123';
-	$database = 'alieimkd_safipro';
+	global $server;
+	global $user;
+	global $pass;
+	global $database;
 
 	try{
 

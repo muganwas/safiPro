@@ -7,7 +7,10 @@ if(session_status() == PHP_SESSION_NONE)
 
 //setcookie($user_id);
 
-
+$server = 'localhost';
+$user = 'root';
+$pass = '';
+$database = 'nova_insurance';
 
 $script_loc = $_SERVER['SCRIPT_NAME'];
 
