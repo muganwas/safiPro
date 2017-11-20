@@ -55,7 +55,7 @@
 							<h3 class="widget-title">Resources</h3>
 							<ul class="no-bullet">
 								<li><a href="<?php echo $root_folder.'resources'; ?>">Documents</a></li>
-								<li><a href="<?php echo $root_folder.'nova_sitemap.xml'?>">Site Map</a></li>
+								<li><a href="#">Site Map</a></li>
 							</ul>
 						</div>
 					</div>

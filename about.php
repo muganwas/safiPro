@@ -2,8 +2,8 @@
 			<main class="main-content">
 				<?php include 'includes/bread_crumbs.php'; ?>
 				<?php if(isset($_GET['cat']) && ($_GET['cat']=='general')) { ?>
-				<div class="header_image" <?php echo 'style="background-image: url('.$hb_image_loc.$page_name_temp.$image_ex2.' );"'; ?>>
-					<div class="caption"> &#8220; Now You're in safe hands &#8221;</div>
+				<div class="header_image" <?php echo 'style="background-image: url('.$hb_image_loc.$page_name_temp.$image_ex1.' );"'; ?>>
+					<div class="caption"> &#8220; We aspire to be a World Class Provider of quality agricultural produce to all our clients and to offer quality services &#8221;</div>
 				</div>
 				<div class="page">
 					
@@ -54,11 +54,16 @@
 							<h2 class="section-title"><?php blockTitle(5); ?></h2>
 
 							<div class="row">
-									
+								<span class="mgt_dits">
+								<h3>OUR MANAGEMENT TEAM:</h3> 
+								 <p>Our management team has an average of 15 years of domestic and international trading experience which explains the steady rise in turn-over.</p>
+								</span>
 								<?php 
 									$category = htmlentities($_GET['cat']);
 									people($category);
 								 ?>
+								 
+								 
 								
 							</div> <!-- .row -->
 						</div> <!-- .container -->

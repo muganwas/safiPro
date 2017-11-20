@@ -208,8 +208,12 @@ textarea {
 
 table {
   border-collapse: collapse;
-  border-spacing: 0; }
-
+  border-spacing: 0;
+ }
+ .feature-numbered table {
+  font-size: 15px;
+  text-align: left;
+ }
 *, *:before, *:after {
   -moz-box-sizing: border-box;
        box-sizing: border-box; }
@@ -284,7 +288,9 @@ form textarea {
           transition: .3s ease; }
   .button:hover, form input[type="submit"]:hover, form input[type="button"], form button:hover, form input[type="reset"]:hover, .button:focus, form input[type="submit"]:focus, form button:focus, form input[type="reset"]:focus {
     background: #E86F71; }
-
+.mgt_dits {
+  margin-left: 50px;
+}
 .map {
   float: left;
   width: 100%;
@@ -1784,7 +1790,7 @@ form textarea {
 .header_image{
 	position: relative;
 	width: 100%;
-	height: 400px;
+	height: 300px;
 	max-height: 400px;
 	padding: 5% 10%;
 	background-repeat: no-repeat;
@@ -1793,8 +1799,6 @@ form textarea {
 	
 }
 .header_image .caption{
-	
-	
 	width: 400px;
 	height: 200px;
 	border-radius: 10px;
@@ -1803,7 +1807,7 @@ form textarea {
 	vertical-align: middle;
 	color: rgba(255,255,255,1.00);
 	font-family:  Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
-	font-size: 28px;
+	font-size: 17px;
 	font-weight: 100;
 	background: rgba(0,0,0,0.5);
 	

@@ -4,8 +4,8 @@
 			<a href="<?php echo $root_folder?>" id="branding">
 				<img src="<?php echo $image_loc1.$logo_name; ?>" alt="<?php echo $site_name; ?>" class="logo">
 				<div class="logo-text">
-					<h1 class="site-title">Nova Insurance</h1>
-					<small class="description">Now You're In Safe Hands</small>
+					<h1 class="site-title">Safi Pro Investments</h1>
+					<small class="description">Enjoy the quality, admire the value.</small>
 				</div>
 			</a> <!-- #branding -->
 
@@ -30,16 +30,14 @@
 				
 					<li class="menu-item<?php selected('About'); ?>"><a href="<?php echo $root_folder.'about'.'?cat=general'; ?>">About us</a>
 							<ul>
-								<a href="<?php //echo $root_folder.'about'.'?cat=management'; ?>"><li id="sub_item">Management</li></a>
-								<a href="<?php //echo $root_folder.'about'.'?cat=board'; ?>"><li id="sub_item">Board of Directors</li></a>
-								<a href="<?php //echo $root_folder.'about'.'?cat=career'; ?>"><li id="sub_item">Career</li></a>
+								<a href="<?php echo $root_folder.'about'.'?cat=management'; ?>"><li id="sub_item">Management</li></a>
 							</ul>
 					</li>							
-					<li class="menu-item<?php selected('Insurance'); ?>"><a href="<?php echo $root_folder.'insurance'.'?cat=general'; ?>">Our Products</a>
+					<li class="menu-item<?php selected('Insurance'); ?>"><a href="<?php echo $root_folder.'products and services'.'?cat=general'; ?>">Our Products</a>
 					
 						<ul>
-							<a href="<?php //echo $root_folder.'insurance'.'?cat=individual'; ?>"><li id="sub_item">Agro Produce</li></a>
-							<a href="<?php //echo $root_folder.'insurance'.'?cat=business'; ?>"><li id="sub_item">Diversified Products</li></a>
+							<a href="<?php echo $root_folder.'products and services'.'?cat=agro'; ?>"><li id="sub_item">Agro Produce</li></a>
+							<a href="<?php echo $root_folder.'products and services'.'?cat=diversified'; ?>"><li id="sub_item">Diversified Products</li></a>
 						</ul>
 					
 					</li>
