@@ -24,5 +24,13 @@
 				</div>
 			</div>
 		</li>
+		<li <?php echo 'style="background-image: url('.$slider_images.'surveying.jpg);"'; ?>>
+			<div class="container">
+				<div class="slide-content">
+					<h2 class="slide-title">We offer<strong>alternative services</strong></h2>
+					<p>We pride ourselves in our varsatility, whether you need land surveyed or to buy, we have you covered.</p>
+				</div>
+			</div>
+		</li>
 	</ul>
 </div> <!-- .hero-slider -->

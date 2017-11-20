@@ -211,8 +211,8 @@ table {
   border-spacing: 0;
  }
  .feature-numbered table {
-  font-size: 15px;
-  text-align: left;
+   font-size: 15px;
+   text-align: left;
  }
 *, *:before, *:after {
   -moz-box-sizing: border-box;
