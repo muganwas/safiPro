@@ -291,6 +291,17 @@ form textarea {
 .mgt_dits {
   margin-left: 50px;
 }
+.prod {
+  float: left;
+  width: 24%;
+  height: auto;
+  padding: 3px;
+  margin: 0;
+}
+.clear {
+  clear: both;
+  content: "";
+}
 .map {
   float: left;
   width: 100%;

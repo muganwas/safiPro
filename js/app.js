@@ -47,11 +47,12 @@
 			},
 			"autofit" );
 	    	
-	    }
+		}
+
+		$('.prod').on('mouseover', function () {
+			$(this).animate({width: "25%"}, 300);
+		}).on('mouseout', function () {
+			$(this).animate({width: "24%"}, 300);
+		});
 	});
-
-	$(window).load(function(){
-
-	});
-
 })(jQuery, document, window);

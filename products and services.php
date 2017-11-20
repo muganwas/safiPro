@@ -108,29 +108,42 @@
 	</div>
 	<div class="page">
 	<div class="container">
-	
-		
-			<h3 class="entry-title1"><?php web_articles_title(12); ?></h3>
-			<?php web_article(12); ?>
-			<?php } else if(isset($_GET['cat']) && ($_GET['cat']=='agro' || $_GET['cat'] == 'diversified')) { ?>
-				<div class="header_image" <?php echo 'style="background-image: url('.$hb_image_loc.$_GET['cat'].$image_ex1.' );"'; ?>>
-					<div class="caption1"><strong><?php echo $_GET['cat'].' ';blockSubTitle(6); ?></strong></div>
-				</div>
-			<div class="page">
-			<div class="container">
-				<div>
-					<h3>PRODUCTS:</h3>
-					<p>These include Rice, wheat ﬂ our, maize ﬂ our , Ground nuts, Beans, salt, cooking oil,
-					 sugar, and various consumer goods to mention but a few.
-					  We are a one stop shopping center for all consumable goods.</p>
-				</div>
-			</div><?php } ?>
-		
-		<?php } else if(isset($_GET['d_coverage']) || isset($_SESSION['coverage'])){?>
-			<div class="quote_form">
-				<?php include 'includes/insurance_quote.php';?>
+		<h3 class="entry-title1"><?php web_articles_title(12); ?></h3>
+		<?php web_article(12); ?>
+		<?php } else if(isset($_GET['cat']) && ($_GET['cat']=='agro' || $_GET['cat'] == 'diversified')) { ?>
+			<div class="header_image" <?php echo 'style="background-image: url('.$hb_image_loc.$_GET['cat'].$image_ex1.' );"'; ?>>
+				<div class="caption1"><strong><?php echo $_GET['cat'].' ';blockSubTitle(6); ?></strong></div>
 			</div>
-		<?php } ?>
+		<div class="page">
+			<div class="container">
+				<?php if($_GET['cat']=='agro') {?>
+					<div>
+						<img id="beans" class="prod" src="images/produce/beans.jpg"/>
+						<img id="maize" class="prod" src="images/produce/maize.jpg"/>
+						<img id="gnuts" class="prod"src="images/produce/gnuts.jpg"/>
+						<img id="semolina" class="prod" src="images/produce/semolina.jpg"/>
+						<div class="clear"></div>
+						<h3>PRODUCTS:</h3>
+						<p>These include Rice, wheat ﬂour, maize ﬂour , Ground nuts, Beans, salt, cooking oil,
+							sugar, and various consumer goods to mention but a few.
+							We are a one stop shopping center for all consumable goods.</p>
+					</div>
+				<?php }else if ($_GET['cat']=='diversified'){ ?>
+					<h3>DIVERSIFIED AREAS OF ACTIVITIES:</h3>
+					<p>We also deal in real estate, selling and developing plots and land etc. some of the private land sold is dotted all over Kampala and surrounding areas.
+					 We are Real Estate Developers and we have a team of Competent Surveyors and Contractors.
+					Our scope of activities among the many include buying and selling plots of land, land surveying, Land documentation, Architectural work, Earth work.
+					 </p>
+				<?php } ?>
+				
+			</div>
+			<?php } ?>
+			
+			<?php } else if(isset($_GET['d_coverage']) || isset($_SESSION['coverage'])){?>
+				<div class="quote_form">
+					<?php include 'includes/insurance_quote.php';?>
+				</div>
+			<?php } ?>
 		</div>
 	</div> <!-- .page -->
 </main>
