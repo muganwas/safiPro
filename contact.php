@@ -3,19 +3,19 @@
 		<?php include 'includes/bread_crumbs.php'; ?>
 		<div class="page">
 			<div class="container">
-				<?php if(!isset($_GET['add'])){ ?><div class="map"></div><?php include 'includes/fb_page.php'; ?>
+				<?php if(!isset($_GET['add'])){ ?><div class="map"></div>
 				<div class="row">
 					<div class="col-md-3">
 						<h2 class="section-title text-left">Address</h2>
 
 						<div class="contact-detail">
 							<address>
-								<p>NOVA Insurance LTD. <br>
-									6, Mackinnon Road Kampala, Uganda.</p>
+								<p>SAFI PRO INVESTMENTS. <br>
+									Kitemu, Wakiso, Uganda.</p>
 
-								<p>Phone:<br><a href="tel:+256 414 232995"> +256 414 232995</a> <br>Fax:<br>+256 414 232996
+								<p>Phone:<br><a href="tel:+256776001022"> +256 776001022</a> <br>Mobile:<br>+256 703001022
 								<br>Email:<br>
-									info@novainsurance.co.ug</p>
+									safipromd@gmail.com</p>
 							</address>
 						</div>
 					</div>
@@ -55,9 +55,6 @@
 			</div>
 			
 		</div> <!-- .page -->
-	</main>
-		<?php include_once('includes/site_footer.php');?>
-	</div>
-</body>
-
-</html>
+	</main>	
+</div>
+<?php include_once('includes/site_footer.php');?>

@@ -41,8 +41,8 @@
 						</ul>
 					
 					</li>
-					<li class="menu-item<?php selected('Downloads'); ?>"><a href="<?php //echo $root_folder.'downloads'; ?>">Our Suppliers</a></li>
-					<li class="menu-item<?php selected('Contact'); ?>"><a href="<?php //echo $root_folder.'contact'; ?>">Contact</a></li>
+					<li class="menu-item<?php selected('Downloads'); ?>"><a href="<?php echo $root_folder.'suppliers'; ?>">Our Suppliers</a></li>
+					<li class="menu-item<?php selected('Contact'); ?>"><a href="<?php echo $root_folder.'contact'; ?>">Contact</a></li>
 				</ul> <!-- .menu -->
 			</div> <!-- .main-navigation -->
 

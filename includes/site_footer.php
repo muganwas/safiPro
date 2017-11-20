@@ -34,10 +34,9 @@
 						<div class="widget">
 							<h3 class="widget-title">Products &amp; Services</h3>
 							<ul class="no-bullet">
-								<li><a href="#">Agro Produce</a></li>
-								<li><a href="#">Real Estate</a></li>
-								<li><a href="#">Surveying</a></li>
-								<li><a href="#">Document Processing</a></li>
+								<li><a href="<?php echo $root_folder.'products and services'.'?cat=agro'; ?>">Agro Produce</a></li>
+								<li><a href="<?php echo $root_folder.'products and services'.'?cat=diversified'; ?>">Real Estate</a></li>
+								<li><a href="<?php echo $root_folder.'products and services'.'?cat=diversified'; ?>">Surveying</a></li>
 							</ul>
 						</div>
 					</div>
@@ -54,7 +53,6 @@
 						<div class="widget">
 							<h3 class="widget-title">Resources</h3>
 							<ul class="no-bullet">
-								<li><a href="<?php echo $root_folder.'resources'; ?>">Documents</a></li>
 								<li><a href="#">Site Map</a></li>
 							</ul>
 						</div>
@@ -68,9 +66,8 @@
 				<nav class="footer-navigation">
 					<a href="<?php echo $root_folder; ?>">Home</a>
 					<a href="<?php echo $root_folder.'about'.'?cat=general'; ?>">About us</a>
-					<a href="<?php echo $root_folder.'insurance'.'?cat=general'; ?>">Our Products</a>
-					<a href="#">Our Suppliers</a>
-					<a href="#">Resources</a>
+					<a href="<?php echo $root_folder.'products and services'.'?cat=general'; ?>">Our Products</a>
+					<a href="<?php echo $root_folder.'suppliers'; ?>">Our Suppliers</a>
 					<a href="<?php echo $root_folder.'contact'; ?>">Contact</a>
 				</nav>
 

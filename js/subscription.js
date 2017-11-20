@@ -105,7 +105,7 @@ function proclaim(){
         alert(e.toString());
     }
 }
-
+*/
 function sendmail(){
 	"use strict";
 	var website;
@@ -322,4 +322,3 @@ function getserverresponse(){
         
     }
 }
-*/

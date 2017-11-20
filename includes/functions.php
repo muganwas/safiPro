@@ -682,10 +682,10 @@ function sendEmail($name, $email, $website,  $message){
 		$name = htmlspecialchars($name, ENT_QUOTES);
 		$mail = htmlspecialchars($email, ENT_QUOTES);
 		$web = htmlspecialchars($website, ENT_QUOTES);
-		$our_email = 'info@novainsurance.co.ug';
+		$our_email = 'safipromd@gmail.com';
 		$message = $message. "\r<br/>".'Website: '.$web;
 		$message = htmlspecialchars($message, ENT_QUOTES);
-		$subject = 'RE: Insurance';
+		$subject = 'RE: Safi Pro Investments';
 		$headers =  'MIME-Version: 1.0'."\r<br/>"; 
 		$headers .= 'From: '.$name.' '.$mail."\r<br/>";
 		$headers .= 'Content-type: text/html; charset=iso-8859-1'."\r<br/>"; 

@@ -129,11 +129,28 @@
 							We are a one stop shopping center for all consumable goods.</p>
 					</div>
 				<?php }else if ($_GET['cat']=='diversified'){ ?>
-					<h3>DIVERSIFIED AREAS OF ACTIVITIES:</h3>
-					<p>We also deal in real estate, selling and developing plots and land etc. some of the private land sold is dotted all over Kampala and surrounding areas.
-					 We are Real Estate Developers and we have a team of Competent Surveyors and Contractors.
-					Our scope of activities among the many include buying and selling plots of land, land surveying, Land documentation, Architectural work, Earth work.
-					 </p>
+					<div>
+						<h3>DIVERSIFIED AREAS OF ACTIVITIES:</h3>
+						<p>We also deal in real estate, selling and developing plots and land etc. some of the private land sold is dotted all over Kampala and surrounding areas.
+						We are Real Estate Developers and we have a team of Competent Surveyors and Contractors.
+						Our scope of activities among the many include buying and selling plots of land, land surveying, Land documentation, Architectural work, Earth work.
+						</p>
+						<img class="prod" src="images/diversified/land.jpg"/>
+						<img class="prod" src="images/diversified/house1.jpg"/>
+						<img class="prod"src="images/diversified/house2.jpg"/>
+						<img class="prod" src="images/diversified/house3.jpg"/>
+						<div class="clear"></div>
+						Saﬁ Pro Investments (U) Ltd Real estate ﬁrm was established to offer professional brokerage of commercial and residential properties.
+						<ul>
+							<li>
+							To transform signiﬁcant chunk of land into sought after residential plots/farm land and estates with well laid out infrastructural facilities and services like roads, water and electricity.
+							</li>
+							<li>
+							To provide a one stop centre for professional services where after acquiring land, one can access architecture, surveying, construction services etc. to complete construction of a house.
+							</li>
+						</ul>
+						To demystify land ownership by putting up different packages for all income earners to own reasonably priced plots of land within well planned environment.
+					</div>
 				<?php } ?>
 				
 			</div>
@@ -146,11 +163,6 @@
 			<?php } ?>
 		</div>
 	</div> <!-- .page -->
-</main>
-			
-	<?php include'includes/site_footer.php';?>
+</main>				
 </div>
-
-</body>
-
-</html>
+<?php include'includes/site_footer.php';?>

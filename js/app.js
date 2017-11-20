@@ -36,7 +36,7 @@
 					}  
 				},
 				marker:{
-					address: "6, Mackinnon Rd, Kampala, Uganda",
+					address: "Kitemu, Wakiso, Uganda",
 					// options: {
 					// 	icon: new google.maps.MarkerImage(
 					// 		"images/map-marker.png",
