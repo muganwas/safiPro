@@ -15,12 +15,18 @@
 							We have been mandated by top rice importers and producers of rice to market their rice.
 							Saﬁ Pro investments Uganda Ltd has been dealing with International trading companies like Jan Mohamed Investment of Jan Brand, SWT Ltd of SWT Brand, Kingdom rice Brand.
 							
-							Mr. Ismael in Vietnam with Mr Gabriel of Gentraco corporation Vietnam Suppliers of Rice
+							<div class="suppliers">
+							<img src="images/suppliers/suppliers1.jpg"/><br/>
+							Mr. Ismael in Vietnam with Mr Gabriel of Gentraco corporation Vietnam Suppliers of Rice</div>
 						</p>
 						<h3>LOCAL SUPPLIERS:</h3>
 						<p>
 							For local suppliers, the company gets supplies from Tilda (U) Ltd, Saﬁ net etc. If you are interested in rice, then Saﬁ pro Investments (U) Ltd is the place. Appreciating that millions of people enjoy rice on a daily basis, we deal in rice and not just rice but the very best grade of rice. Other local rice producers we deal with are Kibimba.
-							Our team goes to great length to carefully source Rice from the very best suppliers in Uganda, Pakistan or elsewhere. It is not surprising that Saﬁ pro Investments Uganda Ltd is associated with the best rice in Uganda selling at least a minimum of ﬁve to ten containers daily. Demand is increasing and with the markets of south Sudan, Congo and Rwanda opening up, we expect business to boom.           Mr. Ismael in Vietnam with Mr Tran Dia
+							Our team goes to great length to carefully source Rice from the very best suppliers in Uganda, Pakistan or elsewhere. It is not surprising that Saﬁ pro Investments Uganda Ltd is associated with the best rice in Uganda selling at least a minimum of ﬁve to ten containers daily. Demand is increasing and with the markets of south Sudan, Congo and Rwanda opening up, we expect business to boom.           
+							<br/>
+							<div class="suppliers">
+							<img src="images/suppliers/suppliers2.jpg"/><br/>
+							Mr. Ismael in Vietnam with Mr Tran Dia </div>
 						</p>
 						<h3>RICE IMPORTS:</h3>
 						<p>

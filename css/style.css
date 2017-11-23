@@ -291,16 +291,40 @@ form textarea {
 .mgt_dits {
   margin-left: 50px;
 }
-.prod {
+.partnership {
+  margin: auto;
+  padding: 0 35%; 
+  text-align: center;
+}
+.suppliers {
+  width:auto;
+  padding: 5px;
+  border: solid thin #c0c0c0;
+}
+.trucks {
   float: left;
   width: 24%;
-  height: auto;
+  max-height: 280px;
+  padding: 3px;
+  margin: 0;
+}
+.prod {
+  float: left;
+  width: 19%;
+  height: 140px;
   padding: 3px;
   margin: 0;
 }
 .clear {
   clear: both;
   content: "";
+}
+.core_values {
+  text-align: center!important;
+}
+.core_values tr:nth-child(odd) {
+  font-weight: bold;
+  text-transform: uppercase;
 }
 .map {
   float: left;
@@ -1242,7 +1266,10 @@ form textarea {
 	background-color: #000000;
 }
 }
-
+.logo {
+  height: 150px;
+  width: auto;
+}
 #branding {
   float: left; }
   #branding .logo-text {

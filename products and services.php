@@ -118,6 +118,7 @@
 			<div class="container">
 				<?php if($_GET['cat']=='agro') {?>
 					<div>
+						<img id="beans" class="prod" src="images/produce/rice.jpg"/>
 						<img id="beans" class="prod" src="images/produce/beans.jpg"/>
 						<img id="maize" class="prod" src="images/produce/maize.jpg"/>
 						<img id="gnuts" class="prod"src="images/produce/gnuts.jpg"/>
@@ -139,6 +140,12 @@
 						<img class="prod" src="images/diversified/house1.jpg"/>
 						<img class="prod"src="images/diversified/house2.jpg"/>
 						<img class="prod" src="images/diversified/house3.jpg"/>
+						<img class="prod" src="images/diversified/house4.jpg"/>
+						<img class="prod" src="images/diversified/house5.jpg"/>
+						<img class="prod"src="images/diversified/house6.jpg"/>
+						<img class="prod" src="images/diversified/house7.jpg"/>
+						<img class="prod" src="images/diversified/house8.jpg"/>
+						<img class="prod" src="images/diversified/papers.jpg"/>
 						<div class="clear"></div>
 						Saﬁ Pro Investments (U) Ltd Real estate ﬁrm was established to offer professional brokerage of commercial and residential properties.
 						<ul>
