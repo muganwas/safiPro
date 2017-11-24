@@ -1,10 +1,19 @@
 <div class="hero hero-slider">
 	<ul class="slides">
+		<li <?php echo 'style="background-image: url('.$slider_images.'rice_main.jpg);"'; ?>>
+			<div class="container">
+				<div class="slide-content">
+					
+					<h2 class="slide-title">We are <strong>Client Driven </strong></h2>
+					<p>We understand and exceed client’s needs and expectations.</p>
+				</div>
+			</div>
+		</li>
 		<li <?php echo 'style="background-image: url('.$slider_images.'gnuts.jpg);"'; ?>>
 			<div class="container">
 				<div class="slide-content">
-					<h2 class="slide-title">We are <strong>Client Driven </strong></h2>
-					<p>We understand and exceed client’s needs and expectations.</p>
+					<h2 class="slide-title">To be a<strong>produce one stop shop </strong></h2>
+					<p>We are well on truck to be a produce one stop shop</p>
 				</div>
 			</div>
 		</li>
