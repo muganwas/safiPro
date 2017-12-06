@@ -73,7 +73,7 @@
 							<p></p>
 							This is one of the main ﬁelds of our Professional expertise. Marketing presents a major constraint in Uganda just as it iswith many other African countries. We try to bridge the gap by providing information to our clients to access products in the available markets. 
 							</p>
-							<h3>TRANSORTATION:</h3>
+							<h3>TRANSPORTATION:</h3>
 							<p>
 							The timely delivery of products to the client base is crucial in ensuring uninterrupted supply to the Entrepreneur and subsequently the end user. The products are transported by road and as the railway system gets revamped, we hope to utilize this as an alternative mode of transport for bulk purchases.</p>
 							<h3>DISTRIBUTION:</h3> 
